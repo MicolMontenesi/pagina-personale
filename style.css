@@ -1,0 +1,268 @@
+ @import url('https://fonts.googleapis.com/css?family=Roboto:300');
+*{
+  margin:0px;
+  font-family:'Roboto', sans-serif;
+}
+
+h1{
+  font-size:2.5em;
+  color:black;
+  position:fixed;
+  margin-top:12px;
+  margin-left:50%;
+  transform:translate(-50%);
+  z-index: 30;
+}
+
+li{
+  display:inline;
+  text-decoration:none;
+  padding:2%;
+  z-index:30;
+
+}
+#lista{
+  margin-top:30px;
+}
+
+h2{
+  margin-top:0%;
+  padding-top:5%;
+  padding-bottom:1%;
+  position:relative;
+  text-align:center;
+  font-size:1em;
+}
+
+.link{
+  text-decoration:none;
+  color:black;
+  border-bottom:2px solid white;
+}
+
+.link:hover{
+  border-bottom-color:black;
+  transition:0.7s;
+}
+
+p{
+  text-align:center;
+  font-size:1em;
+  color:black;
+  position:relative;
+  top:10%;
+}
+
+header{
+  position:fixed;
+  background-color:white;
+  width:100%;
+  height:70px;
+  z-index:20;
+  opacity:0.9;
+}
+
+a{
+  text-decoration:none;
+}
+img{
+  max-width:100%;
+  border:0;
+}
+.container{
+  position:relative;
+  text-align:center;
+}
+
+#pizza{
+  position:absolute;
+  bottom:30vh;
+  right:10vw;
+  color:white;
+  font-size:1.5em;
+}
+
+#pizza2{
+  position:absolute;
+  bottom:22vh;
+  right:8.5vw;
+  color:white;
+  font-size:1.5em;
+}
+
+#pizza3{
+  position:absolute;
+  bottom:8vh;
+  right:10.3vw;
+  color:white;
+  background-color:black;
+  padding:0.7em;
+  font-size:1.5em;
+  font-weight: bold;
+
+}
+
+h3{
+  position:relative;
+  text-align:center;
+  font-size:1.5em;
+  border:1px solid black;
+  width:15%;
+  padding:1%;
+  margin-top:5%;
+  margin-left:50%;
+  transform:translate(-50%);
+  margin-bottom:5%;
+  color:black;
+  opacity:100;
+}
+
+h3:hover{
+  background-color:black;
+  color:white;
+  transition:0.7s;
+
+}
+
+.slideshow{
+  display: flex;
+  align-items: center;
+}
+
+.FFVAD{
+  filter: grayscale(1);
+  transition-duration: 0.5s;
+ }
+
+ .FFVAD:hover{
+  filter: grayscale(0);
+  transition-property: filter;
+  transition-duration: 0.5s;
+}
+
+.bella:hover{
+  filter: grayscale(0);
+  transition-property: filter;
+  transition-duration: 0.5s;
+}
+
+.steal-yo-girl:hover{
+  filter: grayscale(0);
+  transition-property: filter;
+  transition-duration: 0.5s;
+}
+
+
+.footer{
+  background-color:gray;
+  opacity:0.5;
+  position:relative;
+  width:100%;
+  height:30vh;
+  bottom:0vh;
+  align-items:center;
+}
+
+.contacts{
+  position:relative;
+  width:15vw;
+  left:50vw;
+  bottom:0vh;
+  transform:translate(-50%);
+}
+
+.sposta{
+  padding:0.1em;
+  height:12%;
+  z-index:20;
+}
+
+#facebook:hover{
+  filter:opacity(50%);
+  transition:0.7s;
+}
+
+#instagram:hover{
+  filter:opacity(50%);
+  transition:0.7s;
+}
+
+#twitter:hover{
+  filter:opacity(50%);
+  transition:0.7s;
+}
+
+#mail:hover{
+  filter:opacity(50%);
+  transition:0.7s;
+}
+
+.video{
+  position:relative;
+  text-align:center;
+  padding:9em;
+  max-width:70%;
+  height:670px;
+  overflow: hidden;
+  margin:auto;
+  box-sizing:border-box;
+  margin-bottom:25vh;
+}
+
+.video2{
+  display:inherit;
+  margin-top:3vh;
+  margin-bottom:6vh;
+}
+
+.prev, .next{
+  size:2em;
+  padding:1em;
+}
+
+.prev:hover, .next:hover {
+  background-color: gray;
+  color:white;
+}
+
+.testo{
+  max-width:70%;
+  position:relative;
+  left:50%;
+  top:30%;
+  transform:translate(-50%);
+}
+.foto{
+  position:relative;
+  width:60%;
+  left:50%;
+  transform:translate(-50%);
+  top:30%;
+}
+
+.bella{
+  position:absolute;
+  width:45%;
+  left:0%;
+  top:15vh;
+  filter: grayscale(1);
+  transition-duration: 0.5s;
+
+}
+
+.steal-yo-girl{
+  position:absolute;
+  width:45%;
+  right:0%;
+  top:15vh;
+  filter: grayscale(1);
+  transition-duration: 0.5s;
+}
+
+#footerabout{
+  position:relative;
+  top:90%;
+}
+.listacontainer{
+  margin-top:50%;
+}
